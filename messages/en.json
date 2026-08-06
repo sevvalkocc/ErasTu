@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Eras\u00A0Tu | Private Boat Tour in Kekova & Ucaiz Boat Rental",
+    "description": "Explore the unique coves of Kekova with Eras\u00A0Tu, a 12-guest family boat captained by Ahmet and his wife. Enjoy private daily (including lunch) or hourly boat tours from Üçağız."
+  },
+  "nav": {
+    "about": "About Us",
+    "tours": "Tours",
+    "gallery": "Gallery",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "whatsapp": {
+    "cta": "Book on WhatsApp",
+    "prefilledMessage": "Hi, I'd like more information about a private boat tour with Eras\u00A0Tu."
+  },
+  "hero": {
+    "eyebrow": "Kekova Private Boat",
+    "location": "Ucagiz Village, Demre / Antalya",
+    "headline": "Discover the Beauty of Kekova with Eras\u00A0Tu",
+    "subheadline": "A private sea holiday on our 12-guest family boat run by Captain Ahmet and his wife. Enjoy private daily and hourly trips for families and friend groups with no strangers.",
+    "exploreCta": "Explore Tours"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "A Warm Family Boat in Kekova: Eras\u00A0Tu",
+    "subtitle": "Hosted by Captain Ahmet and his wife, fully private tours for up to 12 guests.",
+    "capacity": "12 Guests",
+    "capacityLabel": "Max Capacity",
+    "area": "Kekova & Üçağız",
+    "areaLabel": "Operating Area",
+    "type": "Fully Private",
+    "typeLabel": "Tour Type",
+    "description": "Eras\u00A0Tu is a cozy 12-guest family boat operating out of Üçağız Harbour, lovingly run by Captain Ahmet and his wife. If you are looking for a Kekova private boat tour or an Üçağız boat rental, we provide the perfect setting for large family groups, circles of friends, or couples seeking a secluded escape. With our fully customizable private daily charters, you can swim in the most beautiful and pristine coves in the region, including Aquarium Cove, Tersane Bay, Gökkaya, Kocakarı Bay, and Esmeralda. You will also witness the historical majesty of Kaleköy (Simena) and the Sunken City. Captain Ahmet uses his local expertise to select the calmest coves based on daily wind and sea conditions, ensuring a comfortable and memorable day on the water."
+  },
+  "tours": {
+    "eyebrow": "Our Routes",
+    "title": "Kekova Private Boat Tours",
+    "subtitle": "Every tour is fully private to your group. Choose the experience that suits you best.",
+    "bookCta": "Get Info & Book on WhatsApp",
+    "items": [
+      {
+        "id": "full-day",
+        "title": "Daily Kekova Tour",
+        "duration": "10:00 AM - 5:00 PM",
+        "description": "The complete Kekova experience including fresh lunch, tea, and fruit service. A private boat charter visiting the Sunken City, Kaleköy, and the best coves.",
+        "includes": [
+          "Freshly Prepared Home-Cooked Lunch",
+          "Tea & Fresh Fruit Treats",
+          "Visited Bays: Aquarium, Tersane, Gökkaya, Kocakarı, Esmeralda Bays, Kaleköy and Sunken City"
+        ]
+      },
+      {
+        "id": "hourly",
+        "title": "Hourly Custom Tours",
+        "duration": "Flexible Hours",
+        "description": "An hourly rental option for guests who want to make their own plans or organize a short boat trip. Spend time in any cove you wish for as long as you like.",
+        "includes": [
+          "Custom Route Selection",
+          "Hourly Charter Options",
+          "Flexible Route Planning with Captain Ahmet"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Kekova Through Our Lens",
+    "subtitle": "Real photos from real days on the water."
+  },
+  "reviews": {
+    "eyebrow": "Guest Reviews",
+    "title": "What Our Guests Say",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "origin": "United Kingdom",
+        "text": "Absolutely magical day. The captain knew every hidden spot and made us feel completely at home. The water was crystal clear and the Sunken City was breathtaking.",
+        "rating": 5
+      },
+      {
+        "name": "Marco R.",
+        "origin": "Italy",
+        "text": "Best experience of our Turkey holiday. Fully private, no rush, no crowds. The lunch on board was delicious and the bay we anchored in was paradise.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe K.",
+        "origin": "Istanbul",
+        "text": "Çocuklarımızla mükemmel bir gün geçirdik. Kaptan çok ilgiliydi, güvenlik konusunda da çok titizdi. Kesinlikle tekrar geleceğiz.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How do I make a reservation?",
+        "a": "Contact us on WhatsApp. Tell us your preferred date, group size and tour type. We'll confirm availability within a few hours."
+      },
+      {
+        "q": "Is lunch included in the tour?",
+        "a": "Yes, our daily tours (10:00 AM - 5:00 PM) include a freshly prepared, delicious home-cooked lunch on board, along with tea and fruit service throughout the day."
+      },
+      {
+        "q": "What is the capacity of the boat?",
+        "a": "Our boat can accommodate up to 12 guests. It is ideal for families or a group of friends looking for a private charter."
+      },
+      {
+        "q": "Can children join?",
+        "a": "Absolutely. Our tours are family-friendly. Life jackets for children are provided on board."
+      },
+      {
+        "q": "What if the weather is bad?",
+        "a": "Safety first. If sea conditions are not suitable, we will reschedule your tour or offer a full refund."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Reserve Your Tour",
+    "subtitle": "Send us a message on WhatsApp and we'll get back to you within a few hours.",
+    "whatsappCta": "Open WhatsApp",
+    "location": "Üçağız Harbour, Demre / Antalya",
+    "locationLabel": "Departure Point"
+  },
+  "map": {
+    "title": "Find Us",
+    "subtitle": "We depart from Üçağız Harbour, Demre, Antalya.",
+    "directionsLabel": "Get Directions"
+  }
+}

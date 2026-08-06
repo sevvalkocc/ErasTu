@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Eras\u00A0Tu | Kekova Özel Tekne Turu & Üçağız Tekne Kiralama",
+    "description": "Kaptan Ahmet ve eşinin işlettiği 12 kişilik aile teknemiz Eras\u00A0Tu ile Kekova Üçağız bölgesinin Akvaryum, Tersane, Gökkaya, Kocakarı, Esmeralda koylarını, Kaleköy ve Batıkşehir'i keşfedin. Günlük ve saatlik turlar."
+  },
+  "nav": {
+    "about": "Hakkımızda",
+    "tours": "Turlar",
+    "gallery": "Galeri",
+    "faq": "Sık Sorulanlar",
+    "contact": "İletişim"
+  },
+  "whatsapp": {
+    "cta": "WhatsApp'tan Rezervasyon",
+    "prefilledMessage": "Merhaba, Eras\u00A0Tu ile özel tekne turu hakkında bilgi almak istiyorum."
+  },
+  "hero": {
+    "eyebrow": "Kekova Özel Tekne",
+    "location": "Üçağız Köyü, Demre / Antalya",
+    "headline": "Kekova'nın Eşsiz Koylarını Eras\u00A0Tu ile Keşfedin",
+    "subheadline": "Kaptan Ahmet ve eşinin işlettiği 12 kişilik aile teknemizle size özel bir deniz tatili. Aileniz veya arkadaş grubunuzla, yabancı yolcu olmadan Kekova'nın tadını çıkarın.",
+    "exploreCta": "Turları Keşfet"
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Kekova'da Samimi Bir Aile Teknesi: Eras\u00A0Tu",
+    "subtitle": "Kaptan Ahmet ve eşinin ev sahipliğinde, 12 kişilik tamamen size özel turlar.",
+    "capacity": "12 Misafir",
+    "capacityLabel": "Maks. Kapasite",
+    "area": "Kekova & Üçağız",
+    "areaLabel": "Rota Bölgesi",
+    "type": "Kişiye Özel",
+    "typeLabel": "Deneyim Tipi",
+    "description": "Eras\u00A0Tu, Kekova Üçağız Limanı'ndan hareket eden, Kaptan Ahmet ve eşi tarafından sevgiyle işletilen 12 kişilik samimi bir aile teknesidir. Kekova özel tekne kiralama ve Üçağız tekne turu arayışında olan aile grupları ve arkadaş çevreleri için son derece ideal bir ortam sunuyoruz. Tamamen size özel olarak kiralayabileceğiniz Kekova günübirlik özel tekne turu seçeneğimizle, Akvaryum Koyu, Tersane Koyu, Gökkaya, Kocakarı Koyu ve Esmeralda Koyu gibi bölgenin en popüler ve el değmemiş yüzme noktalarını keşfedebilirsiniz. Aynı zamanda antik Likya tarihine tanıklık eden ünlü Kaleköy (Simena) ve Batıkşehir'in muazzam güzelliklerini yakından görebilirsiniz. Deniz ve rüzgar koşullarına göre en sakin koyları seçen Ahmet Kaptan'ın rehberliğinde, teknemizin gölgelikli güvertesinde, yüzme merdiveninde ve tatlı su duşuyla konforlu bir gün geçirebilirsiniz."
+  },
+  "tours": {
+    "eyebrow": "Rotalarımız",
+    "title": "Kekova Özel Tekne Turları",
+    "subtitle": "Her turumuz grubunuza özeldir. Kendinize en uygun deneyimi seçin.",
+    "bookCta": "WhatsApp'tan Bilgi Al & Rezerve Et",
+    "items": [
+      {
+        "id": "full-day",
+        "title": "Günübirlik Kekova Turu",
+        "duration": "10:00 - 17:00",
+        "description": "Öğle yemeği, çay ve meyve ikramları dahil eksiksiz Kekova deneyimi. Akvaryum, Tersane, Gökkaya ve Esmeralda koyları ile Kaleköy ve Batıkşehir'i kapsayan özel bir deniz sefası.",
+        "includes": [
+          "Taze Hazırlanmış Ev Yapımı Öğle Yemeği",
+          "Çay ve Taze Meyve İkramı",
+          "Ziyaret Edilen Koylar: Akvaryum, Tersane, Gökkaya, Esmeralda Koyları, Kaleköy ve Batıkşehir"
+        ]
+      },
+      {
+        "id": "hourly",
+        "title": "Saatlik Kısa Turlar",
+        "duration": "Esnek Saatler",
+        "description": "Kendi planını yapmak veya kısa süreli bir koy gezisi düzenlemek isteyen misafirlerimiz için saatlik kiralama seçeneği. İstediğiniz süre boyunca dilediğiniz koyda vakit geçirin.",
+        "includes": [
+          "Kişiye Özel Rota Seçimi",
+          "Saatlik Kiralama İmkanı",
+          "Esnek Rota Planlaması"
+        ]
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Galeri",
+    "title": "Bizim Gözümüzden Kekova",
+    "subtitle": " "
+  },
+  "reviews": {
+    "eyebrow": "Misafir Yorumları",
+    "title": "Misafirlerimiz Ne Diyor",
+    "items": [
+      {
+        "name": "Sarah M.",
+        "origin": "İngiltere",
+        "text": "Büyüleyici bir gündü. Kaptan her saklı noktayı biliyordu ve bizi tamamen evimizde hissettirdi. Su kristal berraklığındaydı ve Batık Şehir nefes kesiciydi.",
+        "rating": 5
+      },
+      {
+        "name": "Marco R.",
+        "origin": "İtalya",
+        "text": "Türkiye tatilimizin en iyi deneyimi. Tamamen özel, acele yok, kalabalık yok. Teknedeki öğle yemeği harikaydı ve demirlediğimiz koy cennet gibiydi.",
+        "rating": 5
+      },
+      {
+        "name": "Ayşe K.",
+        "origin": "İstanbul",
+        "text": "Çocuklarımızla mükemmel bir gün geçirdik. Kaptan çok ilgiliydi, güvenlik konusunda da çok titizdi. Kesinlikle tekrar geleceğiz.",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "SSS",
+    "title": "Sık Sorulan Sorular",
+    "items": [
+      {
+        "q": "Rezervasyon nasıl yapabilirim?",
+        "a": "WhatsApp'tan bize ulaşın. Tercih ettiğiniz tarihi, grup büyüklüğünü ve tur tipini belirtin. Birkaç saat içinde müsaitlik durumunu bildiririz."
+      },
+      {
+        "q": "Öğle yemeği tura dahil mi?",
+        "a": "Evet, 10:00 - 17:00 saatleri arasındaki günlük turlarımıza taze hazırlanmış, lezzetli ev yapımı öğle yemeği ile çay ve meyve ikramlarımız dahildir."
+      },
+      {
+        "q": "Teknenizin kapasitesi nedir?",
+        "a": "Teknemiz maksimum 12 misafir kapasitelidir. Bir veya birkaç arkadaş grubu ya da aileler için tamamen özel olarak kiralama yapmaktayız."
+      },
+      {
+        "q": "Çocuklar katılabilir mi?",
+        "a": "Kesinlikle. Turlarımız aile dostudur. Çocuklar için can yelekleri teknede mevcuttur."
+      },
+      {
+        "q": "Hava kötüyse ne olur?",
+        "a": "Önce güvenlik. Deniz koşulları uygun değilse turunuzu yeniden planlayacağız veya tam iade yapacağız."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "İletişime Geçin",
+    "title": "Turunuzu Rezerve Edin",
+    "subtitle": "WhatsApp'tan mesaj gönderin, birkaç saat içinde size dönelim.",
+    "whatsappCta": "WhatsApp'ı Aç",
+    "location": "Üçağız Limanı, Demre / Antalya",
+    "locationLabel": "Kalkış Noktası"
+  },
+  "map": {
+    "title": "Bizi Bulun",
+    "subtitle": "Üçağız Limanı, Demre, Antalya'dan hareket ediyoruz.",
+    "directionsLabel": "Yol Tarifi Al"
+  }
+}

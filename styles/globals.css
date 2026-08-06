@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────────
+   DESIGN SYSTEM — Eras Tu Private Boat
+   Palette & type token reference: DESIGN.md at project root
+   All --color-* tokens are auto-exposed as Tailwind utilities
+   (bg-deep-sea, text-lagoon, border-sun, etc.) via Tailwind v4.
+   ───────────────────────────────────────────────────────────────── */
+
+@theme {
+  /* ── Palette ────────────────────────────────────────────────── */
+  --color-deep-sea:  #0E3A45; /* primary dark — header, hero bg     */
+  --color-lagoon:    #2FA7A0; /* accent — CTAs, links, highlights    */
+  --color-sun:       #D9A441; /* highlight — prices, badges, icons   */
+  --color-stone:     #E8E2D2; /* surface — card backgrounds          */
+  --color-seaglass:  #EFF5F3; /* page background (very light green)  */
+  --color-ink:       #10262B; /* body text                           */
+
+  /* Semantic shortcuts (used in components) */
+  --color-bg:        var(--color-seaglass);
+  --color-surface:   var(--color-stone);
+  --color-primary:   var(--color-deep-sea);
+  --color-accent:    var(--color-lagoon);
+  --color-highlight: var(--color-sun);
+  --color-text:      var(--color-ink);
+
+  /* Utility tones */
+  --color-deep-sea-90: rgb(14 58 69 / 0.9);
+  --color-lagoon-15:   rgb(47 167 160 / 0.15);
+  --color-sun-20:      rgb(217 164 65 / 0.2);
+
+  /* ── Typography ─────────────────────────────────────────────── */
+  /* CSS variables are set on <html> by next/font in layout.tsx   */
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-body:    var(--font-work-sans), system-ui, sans-serif;
+  --font-mono:    var(--font-ibm-plex-mono), "Courier New", monospace;
+
+  /* ── Radius ─────────────────────────────────────────────────── */
+  --radius-sm:  0.375rem;  /* 6px  */
+  --radius-md:  0.75rem;   /* 12px */
+  --radius-lg:  1.25rem;   /* 20px */
+
+  /* ── Transitions ────────────────────────────────────────────── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 250ms var(--ease-out-expo);
+  --transition-slow: 500ms var(--ease-out-expo);
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   BASE RESETS & TYPOGRAPHY
+   ───────────────────────────────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--color-seaglass);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.65;
+}
+
+/* Display headings use Fraunces */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  color: inherit;
+}
+
+/* Data labels (duration, capacity, coordinates) use IBM Plex Mono */
+.font-data {
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SELECTION
+   ───────────────────────────────────────────────────────────────── */
+
+::selection {
+  background-color: var(--color-lagoon);
+  color: #fff;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   FOCUS VISIBLE (accessibility)
+   ───────────────────────────────────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--color-lagoon);
+  outline-offset: 3px;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   SMOOTH ANCHOR OFFSET (sticky header compensation)
+   ───────────────────────────────────────────────────────────────── */
+
+[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* ─────────────────────────────────────────────────────────────────
+   REDUCED MOTION
+   ───────────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
